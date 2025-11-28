@@ -73,6 +73,7 @@ char	*get_next_line(int fd)
 }
 
 ////////////////////
+/*
 #include <stdio.h>
 int main(void)
 {
@@ -86,3 +87,7 @@ int main(void)
 	close(fd);
 	return 0;
 }
+*/
+/*
+<Reference site>https://zenn.dev/grigri_grin/articles/bf45a9fa50f25f
+*/

@@ -1,3 +1,6 @@
+#ifndef GET_NEXT_LINE_H
+#define GET_NEXT_LINE_H
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -21,3 +24,5 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size);
 int	ft_getc(const int fd);
 int	ft_putc(t_string *str, char c);
 int	reallocate_str(t_string *str);
+
+#endif//GET_NEXT_LINE_H
